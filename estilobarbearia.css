@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.card-container {
+    display: flex;           /* coloca os cards lado a lado */
+    gap: 20px;               /* espaço entre os cards */
+    flex-wrap: wrap;         /* quebra linha se faltar espaço na tela */
+    justify-content: center; /* centraliza os cards na tela */
+    margin-top: 30px;
+  }
+  footer {
+    background-image: url('footer.svg');
+    background-size: cover;      /* cobre todo o espaço do footer */
+    background-position: center; /* centraliza a imagem */
+    background-repeat: no-repeat; /* evita repetir a imagem */
+    color: white;                /* texto branco para contraste */
+    padding: 20px;
+  }
+  .container footer{
+    display: flex;
+  }  
